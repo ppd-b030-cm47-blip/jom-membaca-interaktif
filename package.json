@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "homepage": "https://YOUR_USERNAME.github.io/jom-membaca-interaktif",
+  "homepage": "https://jom-membaca-interaktif.github.io/jom-membaca-interaktif",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
