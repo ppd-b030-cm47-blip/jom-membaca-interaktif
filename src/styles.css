@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&family=Nunito:wght@700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #122033;
+  background: #f8fafc;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+button, a, input {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.app-bg {
+  background:
+    radial-gradient(circle at 12% 12%, rgba(250, 204, 21, 0.25), transparent 22%),
+    radial-gradient(circle at 88% 16%, rgba(56, 189, 248, 0.22), transparent 24%),
+    radial-gradient(circle at 80% 82%, rgba(34, 197, 94, 0.18), transparent 24%),
+    linear-gradient(145deg, #f0fdf4 0%, #eff6ff 46%, #fff7ed 100%);
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.84);
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.12);
+  backdrop-filter: blur(18px);
+}
+
+.game-button {
+  box-shadow: 0 7px 0 rgba(21, 128, 61, 0.35);
+}
+
+.game-button:active {
+  transform: translateY(4px);
+  box-shadow: 0 3px 0 rgba(21, 128, 61, 0.35);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+}
+
+.cell-input {
+  text-transform: uppercase;
+}
