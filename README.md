@@ -85,3 +85,4 @@ npm run deploy
 - `vite.config.js` sets the production base path to `/jom-membaca-interaktif/`.
 - The app uses `HashRouter`, so every screen works directly from the deployed URL.
 - All student data is stored locally in the browser. No backend is required.
+Deployment retry
